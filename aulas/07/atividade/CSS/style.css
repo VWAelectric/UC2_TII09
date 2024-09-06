@@ -1,0 +1,12 @@
+h1,h2{
+color: blue;
+}
+p{
+    color: green;
+}
+pre{
+    background-color: rgb(240, 240, 240);
+}
+h2{
+    font-family: 'Courier New', Courier, monospace;
+}
