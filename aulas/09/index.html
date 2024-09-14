@@ -34,19 +34,62 @@
             <h3>Atributos principais:</h3>
 
             <ul>
-                <li>src(source): define o caminho da imagem que será exibida.
+                <li>
+                    <em>src(source)</em>: define o caminho da imagem que será exibida.
                     pode ser uma URL externa ou um caminho relativo dentro do servidor.
                     <div class="card">
                         <h4>Exemplo 1:</h4>
-                        <pre><code>CÓDIGO VAI AQUI</code></pre>
+                        <pre><code>&lt img src="../09/img/imagem_1.jpg" alt="Imagem de montanha" &gt</code></pre>
                         <P>Resultado:</P>
                         <img src="../09/img/imagem_1.jpg" alt="Imagem de montanha" style="width: 100%;">
                     </div>
                 </li>
+                <li>
+                    <em>alt (alternative text)</em>: fornece um texto alternativo para ser exibido
+                    caso a imagem não possa ser carregada. ele também melhora a acessibilidade para
+                    leitores de tela.
+
+                    <div class="card">
+                        <h4>Exemplo 2:</h4>
+                        <pre><code>&lt img src="../09/img/gato andando.gif" alt="Giff gato andando" &gt</code></pre>
+                        <p>Resultado:</p>
+                        <img src="../09/img/gato andando.gif" alt="Giff gato andando" style="width: 100%;">
+                    </div>
+                </li>
+                <li>
+                    <em>src</em> também pode ser de um link externo:
+                    <div class="card">
+                        <h4>Exemplo 3:</h4>
+                        <pre><code>&lt img src="https://images.pexels.com/photos/1366919/pexels-photo-1366919.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Montanha Congelada" &gt</code></pre>
+                        <img src="https://images.pexels.com/photos/1366919/pexels-photo-1366919.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            alt="Montanha Congelada" style="width: 100%;">
+                    </div>
+                </li>
             </ul>
         </section>
+        <!-- Conteúdo Complementar  -->
+        <aside>
+            <h3>Tipos comuns de imagens</h3>
+            <p>Os formatos de imagens mais usados na web são:</p>
+            <ul>
+                <li><strong>(.jpg ou .jpeg):</strong>
+                    Formato utilizando amplamente para fotografias e imagens com muitos
+                    detalhes e cores. Possui compressão com perda de qualidade (lossy).
+                </li>
+                <li>
+                    <strong>(.png):</strong>
+                    Usado para imagens com fundo transparente ou que necessitam de alta qualidade,
+                    sem perda de detalhes. Utiliza compressão sem perda (lossless).
+                </li>
+                <li><strong>GIF (.gif):</strong>
+                    Formato ideal para imagens animadas e pequenos ícones. Suporta transparência,
+                    mas tem um número limitado de cores.
+                </li>
+
+            </ul>
+        </aside>
     </main>
-    <!-- Conteúdo Complementar  -->
+
 </body>
 
 </html>
