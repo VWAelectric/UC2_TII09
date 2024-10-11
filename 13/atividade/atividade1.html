@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>atividade1</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+
+        .grid-container {
+            display: grid;
+            grid: template columns 200px 1fr 1fr 1fr;
+            grid-template-rows: 60px 1fr 1fr 60px;
+            grid-template-areas:
+                "navbar navbar navbar navbar"
+                "aside main main main"
+                "aside section1 section2 section2"
+                "aside footer footer footer"
+            ;
+            gap: 10px;
+            height: 100vh;
+            /* viewport*/
+        }
+     
+        .navbar {
+            grid-area: navbar;
+            background-color: lightgreen;
+            
+        }
+
+        .main {
+            grid-area: main;
+            background-color: lightcoral;
+
+        }
+
+        .section1 {
+            grid-area: section1;
+            background-color: blue;
+
+        }
+
+        .section2 {
+            grid-area: section2;
+            background-color: blueviolet;
+
+        }
+
+        .aside {
+            grid-area: aside;
+            background-color: lightgoldenrodyellow;
+
+        }
+
+        .footer {
+            grid-area: footer;
+            background-color: lightgray;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="grid-container">
+        <nav class="navbar">Navegação</nav>
+        <main class="main">Conteúdo</main>
+        <section class="section1"> Seção 1</section>
+        <section class="section2">Seção 2</section>
+        <aside class="aside">Conteúdo Complementar</aside>
+        <footer class="footer">Rodapé</footer>
+    </div>
+</body>
+
+</html>

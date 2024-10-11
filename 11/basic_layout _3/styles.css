@@ -1,0 +1,61 @@
+* {
+    margin: 0px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(190, 190, 190);
+}
+
+nav {
+    background-color: rgb(220, 220, 220);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+}
+
+nav a {
+    text-decoration: none;
+}
+.logo{
+    background-color: rgb(89, 94, 94);
+    border-radius: 10px;
+}
+
+.navegation {
+    display: flex;
+    justify-content: end;
+    background-color: rgb(220, 220, 220);
+    padding-right: 30px;
+    gap: 20px;
+}
+
+main {
+    background-color: black;
+    display: flex;
+}
+
+section,aside,div {
+    padding: 15px;
+}
+
+section {
+    background-color: rgb(155, 155, 155);
+}
+
+aside {
+    background-color: rgb(215, 215, 215);
+}
+
+div {
+    background-color: rgb(120, 120, 120);
+}
+
+footer {
+    background-color: rgb(190, 190, 190);
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
